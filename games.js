@@ -3047,8 +3047,8 @@ function generateAllSections() {
           const encoded = encodeURIComponent(normalized);
 
           fetch(
-            `https://cdn.jsdelivr.net/gh/kool1nd/soeudbwkdicge1047502648/UGS-Files/${encoded}?t=${Date.now()}`,
-          )
+  `https://cdn.jsdelivr.net/gh/kool1nd/soeudbwkdicge1047502648@main/UGS-Files/${encoded}?t=${Date.now()}`,
+)
             .then((response) => response.text())
             .then((text) => {
               const newWin = window.open("about:blank", "_blank");
